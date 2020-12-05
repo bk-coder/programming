@@ -1,5 +1,4 @@
-a=int(input("a="))
-b=int(input("b="))
+a,b = map(int,input().split())
 if a<b:
     print("meximum=",b)
 elif a==b:
