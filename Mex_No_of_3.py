@@ -1,6 +1,4 @@
-a=int(input("a="))
-b=int(input("b="))
-c=int(input("c="))
+a,b,c = input().split()
 if a>b:
     if a>c:
         print("meximum=",a)
